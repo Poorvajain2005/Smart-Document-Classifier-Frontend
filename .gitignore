@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+
+# production build
+dist/
+build/
+
+# environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# system files
+.DS_Store
+Thumbs.db
+
+# editor folders
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# coverage
+coverage/
+
+# temporary files
+*.log
+
+# Vite
+.vite/
+
+# cache
+.cache/
+
+# OS generated
+*.swp
+*.swo
